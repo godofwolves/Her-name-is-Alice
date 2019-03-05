@@ -17,6 +17,7 @@ window.location = "https://www.google.com";
   }
 }
 
+
 function key()	{
   if (document.getElementById("hehe").src.match("images/y.png")) {
 alert("I already gave you a hint");
