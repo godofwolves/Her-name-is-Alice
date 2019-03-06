@@ -23,5 +23,7 @@ function key()	{
 alert("I already gave you a hint");
   }else { 
     	document.getElementById("hehe").src = "images/y.png";
+		document.getElementById("Eagle").loop = "true";
+
   }
 }
