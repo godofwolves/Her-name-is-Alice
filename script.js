@@ -13,7 +13,7 @@ function check() {
     alert("Try a different path");
     return false;
   }else {
-window.location = "https://www.google.com";
+window.location = "https://godofwolves.github.io/win/";
   }
 }
 
@@ -22,7 +22,7 @@ function key()	{
   if (document.getElementById("hehe").src.match("images/y.png")) {
 alert("I already gave you a hint");
   }else { 
-    	document.getElementById("hehe").src = "images/y.PNG";
+    	document.getElementById("hehe").src = "images/y.png";
 		document.getElementById("Eagle").loop = "true";
 
   }
