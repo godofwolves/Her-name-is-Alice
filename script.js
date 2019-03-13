@@ -19,7 +19,7 @@ window.location = "https://godofwolves.github.io/win/";
 
 
 function key()	{
-  if (document.getElementById("hehe").src.match("images/y.png")) {
+  if (document.getElementById("hehe").src.match("images/y.PNG")) {
 alert("I already gave you a hint");
   }else { 
     	document.getElementById("hehe").src = "images/y.png";
