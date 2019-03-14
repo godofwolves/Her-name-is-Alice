@@ -22,7 +22,7 @@ function key()	{
   if (document.getElementById("hehe").src.match("images/y.PNG")) {
 alert("I already gave you a hint");
   }else { 
-    	document.getElementById("hehe").src = "images/y.png";
+    	document.getElementById("hehe").src = "images/y.PNG";
 		document.getElementById("Eagle").loop = "true";
 
   }
