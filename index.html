@@ -6,12 +6,13 @@
 </head>
 <body>
 
-<embed src="Music/Eagle.mp3" width="180" height="90"  autostart="true" hidden="true" loop="1"/>
-<div class="a1">
 
+<audio id="Eagle">
+<source src="Music/Eagle.mp3">
+</audio>
 
 	<div class="a2 dif pic">
-	<img src="images/ke.png" class="size2">
+	<img src="images/ke.png" onclick="document.getElementById('aftermath').play()" class="size2">
 	</div>
 	<div class="a2 dif pic">
 	<img src="" id="hehe" class="size">
